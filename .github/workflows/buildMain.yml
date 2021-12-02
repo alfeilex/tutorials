@@ -51,7 +51,9 @@ jobs:
       - uses: actions/setup-node@v2-beta
       
       - name: install TS
-        run: npm install typescript
+        run: | 
+          npm install typescript
+          npm cache clean --force
       
       - name: npm install
         run: npm install
