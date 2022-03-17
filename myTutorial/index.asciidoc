@@ -1,0 +1,13 @@
+= Title myTutorial for Testing
+
+====
+
+Its about to learn how to develope tutorials via tutorial-compiler
+
+====
+
+This is the first step explanation
+[step]
+--
+createFile("pathToTheFile/fileName.txt")
+--
